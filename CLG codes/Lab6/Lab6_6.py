@@ -1,0 +1,5 @@
+print("GADHIYA CHETAN BHAVESHBHAI\n23BCP182\nD-3.")
+t = (('a', 53), ('b', 37), ('c', 23), ('d', 1), ('e', 18))
+t = tuple(sorted(list(t), key=lambda x: x[1]))
+t = tuple(filter(lambda x: x[0] != 'b', t))
+print(t)
